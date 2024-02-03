@@ -3,6 +3,40 @@
     margin: 0;
 }
 
-.fa fa bars {
-    text-align: end;
+body {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sprog {
+    height: 40px;
+    background-color: #f3f4ef;
+}
+
+header {
+    background-color: #779882;
+    height: 80px;
+}
+
+i {
+    height: 50px;
+}
+
+.logo {
+    height: 60px;
+    padding: 5px;
+}
+
+
+
+.banner-billede {
+    height: auto;
+    max-width: 1200px;
+}
+
+footer {
+    width: 2480px;
+
+
 }
