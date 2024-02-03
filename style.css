@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.fa fa bars {
+    text-align: end;
+}
