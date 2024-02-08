@@ -13,10 +13,13 @@ body {
     height: 40px;
     background-color: #f3f4ef;
     text-align: right;
+    padding: 10px;
 }
 
 .sprog a {
     text-decoration: none;
+    font-size: 15px;
+    color: 3c3c3c;
 }
 
 header {
@@ -26,22 +29,58 @@ header {
 
 i {
     height: 50px;
+    color: 3c3c3c;
 }
 
 .logo {
-    height: 60px;
+    height: 65px;
     padding: 5px;
 }
 
-
+.top-container {
+    width: 100%;
+}
 
 .banner-billede {
     height: auto;
     max-width: 100%;
+    position: relative;
+}
+
+.top-container-box {
+    height: 150px;
+    background-color: #779882;
+    position: absolute;
+}
+
+.top-container-tekst {
+    color: #ffffff;
+}
+
+.top-container-p {
+    color: #ffffff;
+}
+
+.bund-container-knap {
+    background-color: #779882;
+    padding: 20px;
+    margin: 40px;
+
+}
+
+.bund-container-knap a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
 }
 
 footer {
-    width: 2480px;
+    height: 200px;
+    width: 100%;
+    background-color: #425348;
+}
 
-
+h3 {
+    color: #ffffff;
+    font-size: 30px;
 }
