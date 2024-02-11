@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    max-width: 80em;
 }
 
 body {
@@ -30,6 +31,7 @@ header {
 i {
     height: 50px;
     color: 3c3c3c;
+
 }
 
 .logo {
@@ -37,35 +39,109 @@ i {
     padding: 5px;
 }
 
+.top-container-p {
+    font-size: 25px;
+}
+
 .top-container {
     width: 100%;
+    height: 100px;
+    background-color: #779882;
+    position: relative;
+    align-items: baseline;
 }
 
 .banner-billede {
+    width: 100%;
     height: auto;
-    max-width: 100%;
-    position: relative;
-}
-
-.top-container-box {
-    height: 150px;
-    background-color: #779882;
-    position: absolute;
 }
 
 .top-container-tekst {
     color: #ffffff;
+    text-align: center;
 }
 
 .top-container-p {
     color: #ffffff;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    background-color: #f3f4ef;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+/*kontaktform*/
+.main-container-tilmeld {
+    background-color: #425348;
+    width: 25em;
+    border-radius: 40px;
+    padding: 3em;
+    margin: 3em;
+}
+
+.tilmeld {
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    padding: 2px;
+}
+
+input[type=text], input[type=email]  { /*vælger de emner/typer som skal berøres af nedenstående css*/
+    width: 18em;
+    height: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.tilmeld-knap {
+    width: 18em;
+    padding-right: 5.8em;
+    padding-left: 5.8em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    border-radius: 15px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #779882;
+   
+}
+
+h3 {
+    font-size: 40px;
+    padding: 1em;
+    text-align: center;
+}
+
+.bund-container-tekst {
+    margin-right: 10em;
+    margin-left: 10em;
 }
 
 .bund-container-knap {
     background-color: #779882;
-    padding: 20px;
-    margin: 40px;
-
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+    padding: 1em;
+    margin: 2em;
 }
 
 .bund-container-knap a {
@@ -78,9 +154,14 @@ footer {
     height: 200px;
     width: 100%;
     background-color: #425348;
+    display: flex;
+    justify-content: space-between;
+    justify-items: first baseline;
 }
 
-h3 {
+h4 {
     color: #ffffff;
     font-size: 30px;
+    flex-direction: column;
+    margin: 3em;
 }
